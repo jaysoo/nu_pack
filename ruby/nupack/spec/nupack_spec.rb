@@ -1,5 +1,5 @@
 require 'rspec'
-require 'nu_pack'
+require 'nupack'
 
 describe NuPack::CostCalculator do
   before do

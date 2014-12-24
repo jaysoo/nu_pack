@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'nu_pack/version'
+require 'nupack/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "nu_pack"
+  spec.name          = "nupack"
   spec.version       = NuPack::VERSION
   spec.authors       = ["Jack Hsu"]
   spec.email         = ["jackh@nulogy.com"]

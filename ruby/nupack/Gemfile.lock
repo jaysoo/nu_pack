@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nu_pack (0.0.1)
+    nupack (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -26,6 +26,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.7)
-  nu_pack!
+  nupack!
   rake (~> 10.0)
   rspec (~> 3.1.0)
