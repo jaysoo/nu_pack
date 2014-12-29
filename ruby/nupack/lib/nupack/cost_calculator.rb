@@ -1,6 +1,14 @@
 module NuPack
   class CostCalculator
-    def initialize(markups)
+    DEFAULT_MARKUPS = {
+      flat: 0.05,
+      personnel: 0.012,
+      electronics: 0.02,
+      food: 0.13,
+      pharma: 0.075
+    }
+
+    def initialize(markups=DEFAULT_MARKUPS)
       @markups = markups
     end
 

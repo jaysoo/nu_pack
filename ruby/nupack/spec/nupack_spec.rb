@@ -46,13 +46,7 @@ describe NuPack::CostCalculator do
 
   describe '#final_cost' do
     example do
-      calculator = NuPack::CostCalculator.new(
-        flat: 0.05,
-        personnel: 0.012,
-        electronics: 0.02,
-        food: 0.13,
-        pharma: 0.075
-      )
+      calculator = NuPack::CostCalculator.new
 
       expect(calculator.final_cost(NuPack::Job.new(1299.99, 3, :food))).to eq(1591.58)
       expect(calculator.final_cost(NuPack::Job.new(5432.00, 1, :pharma))).to eq(6199.81)
